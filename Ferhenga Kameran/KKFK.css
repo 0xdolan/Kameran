@@ -1,0 +1,86 @@
+body{
+font-family: Verdana, Arial;
+line-height: 1.7;
+}
+.entry{
+	font-family: Arial, Verdana;
+	color: #29497E;
+	font-size: 22px;
+	font-weight: bold;
+	display: inline;
+}
+.def{
+	font-family: Verdana, Tahoma, Arial;
+	color: #242120;
+	font-size: 16px;
+	display: inline;
+}
+.parenthesis{
+	font-family: Lucida Sans Unicode, Verdana, Tahoma, Arial;
+	color: #078C03;
+	font-size: 17px;
+	display: inline;
+}
+.parenthesis:before{
+	content: "(";
+	color: #242120;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.parenthesis:after{
+	content: ")";
+	color: #242120;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+.pend{
+	font-family: Georgia;
+	color: #019757;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+	display: inline;
+}
+.Num{
+	font-family: Verdana;
+	color: #ED002E;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline;
+}
+.curlybracket{
+	font-family: Lucida Sans Unicode, Verdana;
+	color: #BF0436;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline;
+}
+.curlybracket:before{
+	content: "{";
+	color: #242120;
+	font-size: 14px;
+}
+.curlybracket:after{
+content: "}";
+	color: #242120;
+	font-size: 14px;
+}
+.bracket{
+	font-family: Lucida Sans Unicode, Verdana;
+	color: #FF4500;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline;
+}
+.bracket:before{
+	content: "[";
+	color: #242120;
+	font-size: 14px;
+}
+.bracket:after{
+content: "]";
+	color: #242120;
+	font-size: 14px;
+}
